@@ -1,3 +1,41 @@
+#left{
+
+  /* flex-grow: 1 */
+}
+#centre{
+  /* flex-grow: 2 */
+}
+
+#right{
+  /* flex-grow: 1; */
+  border-width: thick;
+  /* border: 3pt, black; */
+  border-style: solid;
+  border-color: black;
+  background-color: rgba(100, 103, 101, 0.3);
+
+}
+
+#upcoming{
+  align-content: center;
+  background-color: rgba(97, 173, 232, 0.66);
+  padding: 3px;
+  border-width: thin;
+  border-style: solid;
+  border-color: black;
+}
+
+#root{
+  /* display: flex; */
+  /* flex-direction: row; */
+  align-items: center;
+  padding: 20px;
+  color: black;
+
+}
+
+
+
 .App {
   text-align: center;
 }
